@@ -87,44 +87,44 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| STD-01 | TBD | Pending |
-| STD-02 | TBD | Pending |
-| STD-03 | TBD | Pending |
-| STD-04 | TBD | Pending |
-| STD-05 | TBD | Pending |
-| STD-06 | TBD | Pending |
-| STD-07 | TBD | Pending |
-| DIT-01 | TBD | Pending |
-| DIT-02 | TBD | Pending |
-| DIT-03 | TBD | Pending |
-| DIT-04 | TBD | Pending |
-| DIT-05 | TBD | Pending |
-| DIT-06 | TBD | Pending |
-| DIT-07 | TBD | Pending |
-| DIT-08 | TBD | Pending |
-| DIT-09 | TBD | Pending |
-| DIT-10 | TBD | Pending |
-| DIT-11 | TBD | Pending |
-| DIT-12 | TBD | Pending |
-| DIT-13 | TBD | Pending |
-| DIT-14 | TBD | Pending |
-| DIT-15 | TBD | Pending |
-| DIT-16 | TBD | Pending |
-| DIT-17 | TBD | Pending |
-| VAE-01 | TBD | Pending |
-| VAE-02 | TBD | Pending |
-| VAE-03 | TBD | Pending |
-| VAE-04 | TBD | Pending |
-| VAE-05 | TBD | Pending |
-| SYS-01 | TBD | Pending |
-| SYS-02 | TBD | Pending |
-| SYS-03 | TBD | Pending |
+| STD-01 | Phase 1 | Pending |
+| STD-02 | Phase 1 | Pending |
+| STD-03 | Phase 1 | Pending |
+| STD-04 | Phase 1 | Pending |
+| STD-05 | Phase 1 | Pending |
+| STD-06 | Phase 1 | Pending |
+| STD-07 | Phase 1 | Pending |
+| DIT-01 | Phase 1 | Pending |
+| DIT-02 | Phase 1 | Pending |
+| DIT-03 | Phase 1 | Pending |
+| DIT-04 | Phase 1 | Pending |
+| DIT-05 | Phase 1 | Pending |
+| DIT-06 | Phase 1 | Pending |
+| DIT-07 | Phase 1 | Pending |
+| DIT-08 | Phase 1 | Pending |
+| DIT-09 | Phase 1 | Pending |
+| DIT-10 | Phase 1 | Pending |
+| DIT-11 | Phase 1 | Pending |
+| DIT-12 | Phase 2 | Pending |
+| DIT-13 | Phase 2 | Pending |
+| DIT-14 | Phase 2 | Pending |
+| DIT-15 | Phase 2 | Pending |
+| DIT-16 | Phase 2 | Pending |
+| DIT-17 | Phase 2 | Pending |
+| VAE-01 | Phase 3 | Pending |
+| VAE-02 | Phase 3 | Pending |
+| VAE-03 | Phase 3 | Pending |
+| VAE-04 | Phase 3 | Pending |
+| VAE-05 | Phase 3 | Pending |
+| SYS-01 | Phase 4 | Pending |
+| SYS-02 | Phase 4 | Pending |
+| SYS-03 | Phase 4 | Pending |
 
 **Coverage:**
 - v1 requirements: 32 total
-- Mapped to phases: 0
-- Unmapped: 32
+- Mapped to phases: 32
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-04-24*
-*Last updated: 2026-04-24 after initial definition*
+*Last updated: 2026-04-24 after roadmap creation*
