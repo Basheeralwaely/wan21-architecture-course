@@ -13,5 +13,9 @@ output/
 results/
 models
 
+# Python
+__pycache__/
+*.pyc
+
 # Jupyter
 .ipynb_checkpoints/
