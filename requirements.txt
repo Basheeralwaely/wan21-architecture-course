@@ -1,0 +1,27 @@
+# Core ML frameworks
+torch>=2.0.0
+accelerate>=0.25.0
+transformers>=4.36.0
+peft>=0.7.0
+
+# Data & Image processing
+Pillow>=10.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.9
+torchvision>=0.15.0
+
+# Model loading
+safetensors>=0.4.0
+modelscope>=1.10.0
+huggingface_hub>=0.20.0
+
+# Utilities
+einops>=0.7.0
+tqdm>=4.66.0
+typing_extensions>=4.8.0
+ftfy>=6.1.0
+
+# Optional: Flash attention for faster training (uncomment if supported)
+# flash-attn>=2.3.0

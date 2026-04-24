@@ -1,0 +1,17 @@
+.planning/
+.claude/
+*.mp4
+*.onnx
+*.bias
+
+# Data and model artifacts
+cache/
+data/
+dataset_collection/
+dataset_collection2/
+output/
+results/
+models
+
+# Jupyter
+.ipynb_checkpoints/
