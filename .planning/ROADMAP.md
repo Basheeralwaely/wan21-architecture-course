@@ -43,7 +43,10 @@ Plans:
   1. A reader can open NB-06 and see the self-attention + cross-attention + FFN + adaLN composition in one forward pass, with a parameter count cell identifying LoRA target modules
   2. A reader can open NB-07 and observe the patchify/unpatchify shape round-trip: `(B,C,F,H,W)` → flattened sequence → back to video dimensions
   3. A reader can open NB-08 and run a full WanModel forward pass with dummy 48-channel input (noise + control + reference), seeing gradient checkpointing stripped for inference
-**Plans**: TBD
+**Plans:** 2 plans
+Plans:
+- [ ] 02-01-PLAN.md — NB-06: DiT Block composition + LoRA analysis, NB-07: Patchify/Unpatchify/Head
+- [ ] 02-02-PLAN.md — NB-08: WanModel end-to-end forward pass with 48-channel input and gradient checkpointing
 
 ### Phase 3: VAE Track
 **Goal**: Readers can run the three VAE notebooks (NB-09 through NB-11) covering causal convolution primitives, encoder downsampling, and decoder upsampling, and can distinguish VAE patchify from DiT patchify
@@ -74,6 +77,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. DiT Foundations | 3/3 | Complete | 2026-04-24 |
-| 2. DiT Assembly | 0/TBD | Not started | - |
+| 2. DiT Assembly | 0/2 | Planned | - |
 | 3. VAE Track | 0/TBD | Not started | - |
 | 4. System Integration | 0/TBD | Not started | - |
