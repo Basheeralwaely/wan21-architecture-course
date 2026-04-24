@@ -70,7 +70,10 @@ Plans:
   1. A reader can open NB-12 and follow the data flow diagram from raw video + text inputs through VAE encoding, DiT denoising, and VAE decoding back to output video
   2. A reader can see a parameter count summary cell covering the entire model (~780M DiT params + VAE + encoders) with each component's contribution labeled
   3. A reader can identify exactly how the 48-channel DiT input is composed (`cat(noise_latents, control_latents, ref_latents, dim=1)`) and why multi-modal conditioning uses this concatenation approach
-**Plans**: TBD
+**Plans:** 2 plans
+Plans:
+- [ ] 04-01-PLAN.md — NB-12 setup, pipeline ASCII diagram, and component-by-component demos (T5, CLIP, VAE, DiT)
+- [ ] 04-02-PLAN.md — NB-12 48-channel composition, denoising loop walkthrough, parameter count table, summary, and exercises
 
 ## Progress
 
@@ -82,4 +85,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | 1. DiT Foundations | 3/3 | Complete | 2026-04-24 |
 | 2. DiT Assembly | 2/2 | Complete | 2026-04-24 |
 | 3. VAE Track | 0/2 | Planned | - |
-| 4. System Integration | 0/TBD | Not started | - |
+| 4. System Integration | 0/2 | Planned | - |
