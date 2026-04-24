@@ -16,10 +16,11 @@ Clear, annotated code walkthroughs that make the Wan2.1 architecture understanda
 - [x] Code walkthrough style — annotate actual source code from `diffsynth/models/` — Validated in Phase 1
 - [x] Lightweight runnable cells with dummy tensors to show shapes and data flow — Validated in Phase 1 (all 5 notebooks execute on CPU in <5s)
 - [x] All notebooks live in `Course/` directory — Validated in Phase 1
+- [x] DiT Block composition, patchify/unpatchify, and full WanModel end-to-end forward pass — Validated in Phase 2: DiT Assembly (NB-06 through NB-08)
 
 ### Active
 
-- [ ] Full DiT model and VAE encoder/decoder notebooks (remaining phases)
+- [ ] VAE encoder/decoder notebooks (remaining phases)
 - [ ] Intermediate audience — explain diffusion/DiT concepts, assume PyTorch basics
 - [ ] No modifications to existing codebase files
 
@@ -70,4 +71,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-24 after Phase 1 completion*
+*Last updated: 2026-04-24 after Phase 2 completion*
