@@ -542,22 +542,19 @@ print("gate=1: block output incorporates residual branch")
 
 ---
 
-## Open Questions
+## Open Questions (RESOLVED)
 
-1. **Jupyter installation ownership**
+1. **Jupyter installation ownership** — RESOLVED: Plan 01-01 Task 1 includes `pip install jupyter`
    - What we know: `jupyter` is not currently installed; pip cache has 1.1.1
-   - What's unclear: Should the phase plan include a Wave 0 task to install jupyter, or does the user's dev environment already have it?
-   - Recommendation: Include `pip install jupyter` as a Wave 0 task in the plan; it's cheap and safe.
+   - Resolution: Include `pip install jupyter` as part of the setup task in Plan 01-01; it's cheap and safe.
 
-2. **PROJECT_ROOT path in setup cell**
+2. **PROJECT_ROOT path in setup cell** — RESOLVED: PATTERNS.md specifies `pathlib.Path("..").resolve()`
    - What we know: Notebooks will live in `Course/` which is one level below the project root
-   - What's unclear: Whether notebooks will ever be run from a different working directory (e.g., from the project root)
-   - Recommendation: Use `pathlib.Path(__file__).parent.parent` or `Path("..").resolve()` — document the assumed execution location in the setup cell comment.
+   - Resolution: Use `Path("..").resolve()` — document the assumed execution location in the setup cell comment.
 
-3. **NB-04 frequency input for SelfAttention demo**
+3. **NB-04 frequency input for SelfAttention demo** — RESOLVED: Simplified freqs approach per PATTERNS.md NB-04 section
    - What we know: `SelfAttention.forward(x, freqs)` expects freqs shaped for the full 3D RoPE grid (assembled in WanModel.forward)
-   - What's unclear: Whether NB-04 should show simplified freqs (just one band, shape [S, 1, f_dim//2]) for clarity, or the full 3D assembled freqs
-   - Recommendation: Use simplified freqs in NB-04 (NB-03 covers the full assembly); note in NB-04 that full freqs from NB-03 would be used in practice.
+   - Resolution: Use simplified freqs in NB-04 (NB-03 covers the full assembly); note in NB-04 that full freqs from NB-03 would be used in practice.
 
 ---
 
