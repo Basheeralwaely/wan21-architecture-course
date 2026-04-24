@@ -56,7 +56,10 @@ Plans:
   1. A reader can open NB-09 and run CausalConv3d with a dummy video tensor, observing the asymmetric temporal padding and understanding why causal structure prevents temporal leakage
   2. A reader can open NB-10 and trace the encoder's 4-level downsampling from input video dimensions to latent space, including the reparameterization split
   3. A reader can open NB-11 and trace the decoder's upsampling back to pixel frames, with VAE patchify semantics explicitly contrasted against DiT patchify
-**Plans**: TBD
+**Plans:** 2 plans
+Plans:
+- [ ] 03-01-PLAN.md — NB-09: CausalConv3d, ResidualBlock, AttentionBlock (VAE primitives)
+- [ ] 03-02-PLAN.md — NB-10: VAE Encoder downsampling + NB-11: VAE Decoder upsampling and patchify disambiguation
 **UI hint**: no
 
 ### Phase 4: System Integration
@@ -77,6 +80,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. DiT Foundations | 3/3 | Complete | 2026-04-24 |
-| 2. DiT Assembly | 0/2 | Planned | - |
-| 3. VAE Track | 0/TBD | Not started | - |
+| 2. DiT Assembly | 2/2 | Complete | 2026-04-24 |
+| 3. VAE Track | 0/2 | Planned | - |
 | 4. System Integration | 0/TBD | Not started | - |
