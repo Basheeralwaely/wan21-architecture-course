@@ -645,17 +645,19 @@ assert vae_p.shape == (1, 64, 4, 4, 4)  # [B, C*4, F, H/2, W/2]
 
 ---
 
-## Open Questions
+## Open Questions (RESOLVED)
 
 1. **feat_cache streaming acknowledgment depth**
    - What we know: feat_cache is out of scope per REQUIREMENTS.md; temporal downsampling in demo cells won't happen without it
    - What's unclear: How much to explain vs. just note in passing; whether a brief 2-sentence explanation satisfies STD-05 "prose before code" for the Resample temporal path
    - Recommendation: Single sentence in NB-10 Resample section: "In production, `downsample3d` also applies a temporal stride via `time_conv` with `feat_cache`; notebooks run without cache so temporal dimension stays constant." This is within Claude's discretion (CONTEXT.md).
+   - RESOLVED: Use single-sentence acknowledgment in NB-10 Resample section per recommendation. Within Claude's discretion (CONTEXT.md). Implemented in Plan 03-02, Task 1, Cell 4 prose and Cell 6 print statement.
 
 2. **Frame count for encoder NB-10 demo**
    - What we know: `dim=8, T=5, H=16, W=16` works in ~4ms; `T=9` works in ~8ms
    - What's unclear: Whether to use T=5 (simpler math) or T=9 (closer to production `(T+3)//4` pattern)
    - Recommendation: Use T=5. Simpler shape math. Production temporal behavior is noted architecturally, not demonstrated.
+   - RESOLVED: Use T=5 per recommendation. Simpler shape math; production temporal behavior noted architecturally. Implemented in Plan 03-02, Task 1, Cell 3 and Cell 8.
 
 ---
 
