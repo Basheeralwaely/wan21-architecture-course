@@ -18,10 +18,12 @@ Clear, annotated code walkthroughs that make the Wan2.1 architecture understanda
 - [x] All notebooks live in `Course/` directory — Validated in Phase 1
 - [x] DiT Block composition, patchify/unpatchify, and full WanModel end-to-end forward pass — Validated in Phase 2: DiT Assembly (NB-06 through NB-08)
 - [x] VAE primitives (CausalConv3d, ResidualBlock, AttentionBlock), Encoder3d downsampling, Decoder3d upsampling, patchify disambiguation — Validated in Phase 3: VAE Track (NB-09 through NB-11)
+- [x] Full pipeline system integration — DiT + VAE + T5 + CLIP composition, 48-channel input, flow matching denoising, parameter counts — Validated in Phase 4: System Integration (NB-12)
+- [x] Intermediate audience — explain diffusion/DiT concepts, assume PyTorch basics — Validated in Phase 4 (flow matching explanation verified accessible)
+- [x] No modifications to existing codebase files — Validated across all 4 phases (read-only codebase maintained)
 
 ### Active
-- [ ] Intermediate audience — explain diffusion/DiT concepts, assume PyTorch basics
-- [ ] No modifications to existing codebase files
+None — all requirements validated.
 
 ### Out of Scope
 
@@ -70,4 +72,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-24 after Phase 3 completion*
+*Last updated: 2026-04-24 after Phase 4 completion — all milestone phases complete*

@@ -72,8 +72,8 @@ Plans:
   3. A reader can identify exactly how the 48-channel DiT input is composed (`cat(noise_latents, control_latents, ref_latents, dim=1)`) and why multi-modal conditioning uses this concatenation approach
 **Plans:** 2 plans
 Plans:
-- [ ] 04-01-PLAN.md — NB-12 setup, pipeline ASCII diagram, and component-by-component demos (T5, CLIP, VAE, DiT)
-- [ ] 04-02-PLAN.md — NB-12 48-channel composition, denoising loop walkthrough, parameter count table, summary, and exercises
+- [x] 04-01-PLAN.md — NB-12 setup, pipeline ASCII diagram, and component-by-component demos (T5, CLIP, VAE, DiT)
+- [x] 04-02-PLAN.md — NB-12 48-channel composition, denoising loop walkthrough, parameter count table, summary, and exercises
 
 ## Progress
 
