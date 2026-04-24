@@ -58,8 +58,8 @@ Plans:
   3. A reader can open NB-11 and trace the decoder's upsampling back to pixel frames, with VAE patchify semantics explicitly contrasted against DiT patchify
 **Plans:** 2 plans
 Plans:
-- [ ] 03-01-PLAN.md — NB-09: CausalConv3d, ResidualBlock, AttentionBlock (VAE primitives)
-- [ ] 03-02-PLAN.md — NB-10: VAE Encoder downsampling + NB-11: VAE Decoder upsampling and patchify disambiguation
+- [x] 03-01-PLAN.md — NB-09: CausalConv3d, ResidualBlock, AttentionBlock (VAE primitives)
+- [x] 03-02-PLAN.md — NB-10: VAE Encoder downsampling + NB-11: VAE Decoder upsampling and patchify disambiguation
 **UI hint**: no
 
 ### Phase 4: System Integration
