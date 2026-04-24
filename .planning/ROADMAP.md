@@ -31,9 +31,9 @@ Decimal phases appear between their surrounding integers in numeric order.
   5. A reader can open NB-05 and observe gate=0 identity behavior for adaLN-Zero modulation, with the learned per-block modulation offset demonstrated
 **Plans:** 3 plans
 Plans:
-- [ ] 01-01-PLAN.md — Setup + NB-01: RMSNorm, sinusoidal embedding, modulate (template-setting notebook)
-- [ ] 01-02-PLAN.md — NB-02: QKV projections/head layout + NB-03: 3D RoPE
-- [ ] 01-03-PLAN.md — NB-04: SelfAttention/CrossAttention + NB-05: adaLN-Zero modulation
+- [x] 01-01-PLAN.md — Setup + NB-01: RMSNorm, sinusoidal embedding, modulate (template-setting notebook)
+- [x] 01-02-PLAN.md — NB-02: QKV projections/head layout + NB-03: 3D RoPE
+- [x] 01-03-PLAN.md — NB-04: SelfAttention/CrossAttention + NB-05: adaLN-Zero modulation
 
 ### Phase 2: DiT Assembly
 **Goal**: Readers can trace a full DiT inference pass through a composed DiT Block, patch embedding/unpatchify, and the 30-block WanModel with 48-channel concatenated input
@@ -73,7 +73,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. DiT Foundations | 0/3 | Planned | - |
+| 1. DiT Foundations | 3/3 | Complete | 2026-04-24 |
 | 2. DiT Assembly | 0/TBD | Not started | - |
 | 3. VAE Track | 0/TBD | Not started | - |
 | 4. System Integration | 0/TBD | Not started | - |
