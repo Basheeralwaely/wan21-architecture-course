@@ -12,16 +12,16 @@ Clear, annotated code walkthroughs that make the Wan2.1 architecture understanda
 
 ### Validated
 
-(None yet — ship to validate)
+- [x] Bottom-up notebook sequence covering attention, QKV, DiT blocks — Validated in Phase 1: DiT Foundations (NB-01 through NB-05)
+- [x] Code walkthrough style — annotate actual source code from `diffsynth/models/` — Validated in Phase 1
+- [x] Lightweight runnable cells with dummy tensors to show shapes and data flow — Validated in Phase 1 (all 5 notebooks execute on CPU in <5s)
+- [x] All notebooks live in `Course/` directory — Validated in Phase 1
 
 ### Active
 
-- [ ] Bottom-up notebook sequence covering attention, QKV, DiT blocks, full DiT, VAE encoder/decoder
-- [ ] Code walkthrough style — annotate actual source code from `diffsynth/models/`
-- [ ] Lightweight runnable cells with dummy tensors to show shapes and data flow
+- [ ] Full DiT model and VAE encoder/decoder notebooks (remaining phases)
 - [ ] Intermediate audience — explain diffusion/DiT concepts, assume PyTorch basics
 - [ ] No modifications to existing codebase files
-- [ ] All notebooks live in `Course/` directory
 
 ### Out of Scope
 
@@ -47,9 +47,10 @@ Clear, annotated code walkthroughs that make the Wan2.1 architecture understanda
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Bottom-up notebook ordering | Build understanding from primitives to composed systems | -- Pending |
-| Dummy tensors over real weights | Keep notebooks fast and portable without GPU/model requirements | -- Pending |
-| Code walkthrough over theory-first | Audience learns better by reading annotated real code | -- Pending |
+| Bottom-up notebook ordering | Build understanding from primitives to composed systems | Validated Phase 1 |
+| Dummy tensors over real weights | Keep notebooks fast and portable without GPU/model requirements | Validated Phase 1 |
+| Code walkthrough over theory-first | Audience learns better by reading annotated real code | Validated Phase 1 |
+| importlib path search for imports | Handles worktrees and non-standard layouts without modifying source | Validated Phase 1 |
 
 ## Evolution
 
@@ -69,4 +70,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-24 after initialization*
+*Last updated: 2026-04-24 after Phase 1 completion*
