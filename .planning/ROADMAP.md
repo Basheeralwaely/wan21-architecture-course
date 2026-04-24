@@ -45,8 +45,8 @@ Plans:
   3. A reader can open NB-08 and run a full WanModel forward pass with dummy 48-channel input (noise + control + reference), seeing gradient checkpointing stripped for inference
 **Plans:** 2 plans
 Plans:
-- [ ] 02-01-PLAN.md — NB-06: DiT Block composition + LoRA analysis, NB-07: Patchify/Unpatchify/Head
-- [ ] 02-02-PLAN.md — NB-08: WanModel end-to-end forward pass with 48-channel input and gradient checkpointing
+- [x] 02-01-PLAN.md — NB-06: DiT Block composition + LoRA analysis, NB-07: Patchify/Unpatchify/Head
+- [x] 02-02-PLAN.md — NB-08: WanModel end-to-end forward pass with 48-channel input and gradient checkpointing
 
 ### Phase 3: VAE Track
 **Goal**: Readers can run the three VAE notebooks (NB-09 through NB-11) covering causal convolution primitives, encoder downsampling, and decoder upsampling, and can distinguish VAE patchify from DiT patchify
