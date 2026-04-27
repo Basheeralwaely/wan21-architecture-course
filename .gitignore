@@ -11,7 +11,7 @@ dataset_collection/
 dataset_collection2/
 output/
 results/
-models
+/models/
 
 # Python
 __pycache__/
